@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/train.py", line 260, in <module>
+    train_model(args, model)
+  File "/content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/train.py", line 136, in train_model
+    loss = criterion(output, label)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/loss.py", line 1174, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 3029, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+ValueError: Expected input batch_size (1) to match target batch_size (0).

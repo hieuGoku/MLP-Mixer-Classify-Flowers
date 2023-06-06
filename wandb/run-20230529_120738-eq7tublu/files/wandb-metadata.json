@@ -1,0 +1,70 @@
+{
+    "os": "Linux-5.15.107+-x86_64-with-glibc2.31",
+    "python": "3.10.11",
+    "heartbeatAt": "2023-05-29T12:07:38.582679",
+    "startedAt": "2023-05-29T12:07:38.032444",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train-folder",
+        "/content/Flower_dataset/train",
+        "--valid-folder",
+        "/content/Flower_dataset/valid",
+        "--model-folder",
+        "/content/drive/MyDrive/MLP-Mixer/weights",
+        "--model",
+        "mixer_b32",
+        "--num-classes",
+        "5",
+        "--image-size",
+        "256",
+        "--batch-size",
+        "128",
+        "--epochs",
+        "100",
+        "--lr",
+        "0.0001",
+        "--logger",
+        "wandb"
+    ],
+    "state": "running",
+    "program": "/content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/train.py",
+    "codePath": "train.py",
+    "host": "1a9efed5db12",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2000.14,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2000.14,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 78.1898422241211,
+        "used": 23.95632553100586
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 12.678390502929688
+    }
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/train.py", line 216, in <module>
+    train_model(args)
+  File "/content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/train.py", line 169, in train_model
+    torch.cuda.empty_cache()
+  File "/usr/local/lib/python3.10/dist-packages/torch/cuda/memory.py", line 133, in empty_cache
+    torch._C._cuda_emptyCache()
+KeyboardInterrupt

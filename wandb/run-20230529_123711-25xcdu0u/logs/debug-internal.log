@@ -1,0 +1,194 @@
+2023-05-29 12:37:11,759 INFO    StreamThr :1144 [internal.py:wandb_internal():86] W&B internal server running at pid: 1144, started at: 2023-05-29 12:37:11.755651
+2023-05-29 12:37:11,765 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status
+2023-05-29 12:37:11,767 INFO    WriterThread:1144 [datastore.py:open_for_write():85] open: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/run-25xcdu0u.wandb
+2023-05-29 12:37:11,772 DEBUG   SenderThread:1144 [sender.py:send():375] send: header
+2023-05-29 12:37:11,773 DEBUG   SenderThread:1144 [sender.py:send():375] send: run
+2023-05-29 12:37:11,971 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: check_version
+2023-05-29 12:37:11,973 INFO    SenderThread:1144 [dir_watcher.py:__init__():219] watching files in: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files
+2023-05-29 12:37:11,973 INFO    SenderThread:1144 [sender.py:_start_run_threads():1124] run started: 25xcdu0u with start time 1685363831.764107
+2023-05-29 12:37:11,973 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: summary_record
+2023-05-29 12:37:11,977 INFO    SenderThread:1144 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-29 12:37:11,978 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: check_version
+2023-05-29 12:37:12,064 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: run_start
+2023-05-29 12:37:12,071 DEBUG   HandlerThread:1144 [system_info.py:__init__():31] System info init
+2023-05-29 12:37:12,072 DEBUG   HandlerThread:1144 [system_info.py:__init__():46] System info init done
+2023-05-29 12:37:12,072 INFO    HandlerThread:1144 [system_monitor.py:start():181] Starting system monitor
+2023-05-29 12:37:12,072 INFO    SystemMonitor:1144 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-29 12:37:12,072 INFO    HandlerThread:1144 [system_monitor.py:probe():201] Collecting system info
+2023-05-29 12:37:12,073 INFO    SystemMonitor:1144 [interfaces.py:start():190] Started cpu monitoring
+2023-05-29 12:37:12,073 INFO    SystemMonitor:1144 [interfaces.py:start():190] Started disk monitoring
+2023-05-29 12:37:12,075 INFO    SystemMonitor:1144 [interfaces.py:start():190] Started gpu monitoring
+2023-05-29 12:37:12,075 INFO    SystemMonitor:1144 [interfaces.py:start():190] Started memory monitoring
+2023-05-29 12:37:12,076 INFO    SystemMonitor:1144 [interfaces.py:start():190] Started network monitoring
+2023-05-29 12:37:12,081 DEBUG   HandlerThread:1144 [system_info.py:probe():195] Probing system
+2023-05-29 12:37:12,088 DEBUG   HandlerThread:1144 [git.py:repo():40] git repository is invalid
+2023-05-29 12:37:12,088 DEBUG   HandlerThread:1144 [system_info.py:probe():240] Probing system done
+2023-05-29 12:37:12,089 DEBUG   HandlerThread:1144 [system_monitor.py:probe():210] {'os': 'Linux-5.15.107+-x86_64-with-glibc2.31', 'python': '3.10.11', 'heartbeatAt': '2023-05-29T12:37:12.081352', 'startedAt': '2023-05-29T12:37:11.701485', 'docker': None, 'cuda': None, 'args': ('--train-folder', '/content/Flower_dataset/train', '--valid-folder', '/content/Flower_dataset/valid', '--model-folder', '/content/drive/MyDrive/MLP-Mixer/weights', '--model', 'mixer_b16', '--num-classes', '5', '--image-size', '256', '--batch-size', '64', '--epochs', '100', '--lr', '0.0001', '--logger', 'wandb'), 'state': 'running', 'program': '/content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/train.py', 'codePath': 'train.py', 'host': '440ed9e16feb', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 1, 'cpu_count_logical': 2, 'cpu_freq': {'current': 2199.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 78.1898422241211, 'used': 23.791324615478516}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 12.678398132324219}}
+2023-05-29 12:37:12,089 INFO    HandlerThread:1144 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-29 12:37:12,089 INFO    HandlerThread:1144 [system_monitor.py:probe():214] Publishing system info
+2023-05-29 12:37:12,089 DEBUG   HandlerThread:1144 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-29 12:37:12,092 DEBUG   HandlerThread:1144 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-29 12:37:12,118 INFO    HandlerThread:1144 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-29 12:37:12,124 DEBUG   SenderThread:1144 [sender.py:send():375] send: files
+2023-05-29 12:37:12,125 INFO    SenderThread:1144 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-29 12:37:12,138 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-29 12:37:12,139 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: stop_status
+2023-05-29 12:37:12,193 DEBUG   SenderThread:1144 [sender.py:send():375] send: telemetry
+2023-05-29 12:37:12,546 INFO    wandb-upload_0:1144 [upload_job.py:push():137] Uploaded file /tmp/tmpf1k_bna0wandb/nffoth2a-wandb-metadata.json
+2023-05-29 12:37:12,977 INFO    Thread-12 :1144 [dir_watcher.py:_on_file_created():278] file/dir created: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/requirements.txt
+2023-05-29 12:37:12,978 INFO    Thread-12 :1144 [dir_watcher.py:_on_file_created():278] file/dir created: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/wandb-summary.json
+2023-05-29 12:37:12,979 INFO    Thread-12 :1144 [dir_watcher.py:_on_file_created():278] file/dir created: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/wandb-metadata.json
+2023-05-29 12:37:17,194 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:22,195 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:27,138 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-29 12:37:27,139 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: stop_status
+2023-05-29 12:37:28,179 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:33,180 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:38,181 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:43,186 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:43,873 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-29 12:37:43,874 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: stop_status
+2023-05-29 12:37:44,048 INFO    Thread-12 :1144 [dir_watcher.py:_on_file_modified():295] file/dir modified: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/config.yaml
+2023-05-29 12:37:48,914 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:53,914 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:58,915 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:37:59,209 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-29 12:37:59,209 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: stop_status
+2023-05-29 12:38:04,261 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:38:09,262 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:38:12,076 DEBUG   SystemMonitor:1144 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-29 12:38:12,079 DEBUG   SenderThread:1144 [sender.py:send():375] send: stats
+2023-05-29 12:38:14,646 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-29 12:38:14,647 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: stop_status
+2023-05-29 12:38:14,689 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:38:19,690 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:38:24,691 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:38:29,692 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:38:29,753 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-29 12:38:29,754 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: stop_status
+2023-05-29 12:38:29,809 DEBUG   SenderThread:1144 [sender.py:send():375] send: exit
+2023-05-29 12:38:29,809 INFO    SenderThread:1144 [sender.py:send_exit():598] handling exit code: 255
+2023-05-29 12:38:29,810 INFO    SenderThread:1144 [sender.py:send_exit():600] handling runtime: 77
+2023-05-29 12:38:29,813 INFO    SenderThread:1144 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-29 12:38:29,814 INFO    SenderThread:1144 [sender.py:send_exit():606] send defer
+2023-05-29 12:38:29,815 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:29,815 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-29 12:38:29,815 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:29,815 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-29 12:38:29,815 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 1
+2023-05-29 12:38:29,816 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:29,816 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-29 12:38:29,816 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:29,816 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-29 12:38:29,816 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 2
+2023-05-29 12:38:29,816 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:29,817 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-29 12:38:29,817 INFO    HandlerThread:1144 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-29 12:38:29,821 DEBUG   SystemMonitor:1144 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-29 12:38:29,821 DEBUG   SystemMonitor:1144 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-29 12:38:29,823 INFO    HandlerThread:1144 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-29 12:38:29,826 INFO    HandlerThread:1144 [interfaces.py:finish():202] Joined disk monitor
+2023-05-29 12:38:29,826 INFO    HandlerThread:1144 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-29 12:38:29,826 INFO    HandlerThread:1144 [interfaces.py:finish():202] Joined memory monitor
+2023-05-29 12:38:29,827 INFO    HandlerThread:1144 [interfaces.py:finish():202] Joined network monitor
+2023-05-29 12:38:29,827 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:29,827 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-29 12:38:29,827 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 3
+2023-05-29 12:38:29,828 DEBUG   SenderThread:1144 [sender.py:send():375] send: stats
+2023-05-29 12:38:29,828 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:29,828 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-29 12:38:29,828 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:29,829 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-29 12:38:29,829 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 4
+2023-05-29 12:38:29,829 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:29,829 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-29 12:38:29,829 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:29,829 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-29 12:38:29,829 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 5
+2023-05-29 12:38:29,830 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:29,830 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-29 12:38:29,830 DEBUG   SenderThread:1144 [sender.py:send():375] send: summary
+2023-05-29 12:38:29,833 INFO    SenderThread:1144 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-29 12:38:29,834 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:29,834 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-29 12:38:29,834 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 6
+2023-05-29 12:38:29,834 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:29,835 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-29 12:38:29,835 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:29,835 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-29 12:38:29,835 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 7
+2023-05-29 12:38:29,835 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: status_report
+2023-05-29 12:38:29,835 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:29,836 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-29 12:38:29,836 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:29,836 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-29 12:38:30,158 INFO    Thread-12 :1144 [dir_watcher.py:_on_file_modified():295] file/dir modified: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/wandb-summary.json
+2023-05-29 12:38:30,159 INFO    Thread-12 :1144 [dir_watcher.py:_on_file_created():278] file/dir created: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/output.log
+2023-05-29 12:38:30,795 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-29 12:38:31,820 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 8
+2023-05-29 12:38:31,820 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: poll_exit
+2023-05-29 12:38:31,820 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:31,821 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-29 12:38:31,821 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:31,822 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-29 12:38:31,824 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 9
+2023-05-29 12:38:31,825 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:31,825 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-29 12:38:31,825 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:31,825 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-29 12:38:31,826 INFO    SenderThread:1144 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-29 12:38:32,163 INFO    SenderThread:1144 [dir_watcher.py:_on_file_modified():295] file/dir modified: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/output.log
+2023-05-29 12:38:32,165 INFO    SenderThread:1144 [dir_watcher.py:finish():395] scan: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files
+2023-05-29 12:38:32,166 INFO    SenderThread:1144 [dir_watcher.py:finish():409] scan save: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/config.yaml config.yaml
+2023-05-29 12:38:32,168 INFO    SenderThread:1144 [dir_watcher.py:finish():409] scan save: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/wandb-summary.json wandb-summary.json
+2023-05-29 12:38:32,172 INFO    SenderThread:1144 [dir_watcher.py:finish():409] scan save: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/requirements.txt requirements.txt
+2023-05-29 12:38:32,175 INFO    SenderThread:1144 [dir_watcher.py:finish():409] scan save: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/wandb-metadata.json wandb-metadata.json
+2023-05-29 12:38:32,175 INFO    SenderThread:1144 [dir_watcher.py:finish():409] scan save: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/output.log output.log
+2023-05-29 12:38:32,180 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 10
+2023-05-29 12:38:32,180 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:32,180 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-29 12:38:32,181 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:32,181 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-29 12:38:32,183 INFO    SenderThread:1144 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-29 12:38:32,496 INFO    wandb-upload_3:1144 [upload_job.py:push():137] Uploaded file /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/output.log
+2023-05-29 12:38:32,519 INFO    wandb-upload_1:1144 [upload_job.py:push():137] Uploaded file /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/wandb-summary.json
+2023-05-29 12:38:32,539 INFO    wandb-upload_2:1144 [upload_job.py:push():137] Uploaded file /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/requirements.txt
+2023-05-29 12:38:32,609 INFO    wandb-upload_0:1144 [upload_job.py:push():137] Uploaded file /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/files/config.yaml
+2023-05-29 12:38:32,809 INFO    Thread-11 (_thread_body):1144 [sender.py:transition_state():626] send defer: 11
+2023-05-29 12:38:32,810 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:32,810 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-29 12:38:32,810 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:32,810 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-29 12:38:32,811 INFO    SenderThread:1144 [file_pusher.py:join():172] waiting for file pusher
+2023-05-29 12:38:32,811 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 12
+2023-05-29 12:38:32,811 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:32,811 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-29 12:38:32,811 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:32,812 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-29 12:38:33,062 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 13
+2023-05-29 12:38:33,062 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:33,062 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-29 12:38:33,063 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:33,063 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-29 12:38:33,063 INFO    SenderThread:1144 [sender.py:transition_state():626] send defer: 14
+2023-05-29 12:38:33,064 DEBUG   SenderThread:1144 [sender.py:send():375] send: final
+2023-05-29 12:38:33,064 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: defer
+2023-05-29 12:38:33,064 DEBUG   SenderThread:1144 [sender.py:send():375] send: footer
+2023-05-29 12:38:33,064 INFO    HandlerThread:1144 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-29 12:38:33,065 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: defer
+2023-05-29 12:38:33,065 INFO    SenderThread:1144 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-29 12:38:33,066 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-29 12:38:33,066 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: server_info
+2023-05-29 12:38:33,066 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-29 12:38:33,066 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: poll_exit
+2023-05-29 12:38:33,067 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-29 12:38:33,067 DEBUG   SenderThread:1144 [sender.py:send_request():402] send_request: server_info
+2023-05-29 12:38:33,151 INFO    MainThread:1144 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-29 12:38:33,151 INFO    MainThread:1144 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-29 12:38:33,152 INFO    MainThread:1144 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-05-29 12:38:33,152 DEBUG   HandlerThread:1144 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-29 12:38:33,152 INFO    HandlerThread:1144 [handler.py:finish():842] shutting down handler
+2023-05-29 12:38:34,067 INFO    WriterThread:1144 [datastore.py:close():298] close: /content/drive/.shortcut-targets-by-id/1wgmxFHdQmfNjeJzN--4FpwcBPv5ku1vf/MLP-Mixer/wandb/run-20230529_123711-25xcdu0u/run-25xcdu0u.wandb
+2023-05-29 12:38:34,151 INFO    SenderThread:1144 [sender.py:finish():1550] shutting down sender
+2023-05-29 12:38:34,151 INFO    SenderThread:1144 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-29 12:38:34,152 INFO    SenderThread:1144 [file_pusher.py:join():172] waiting for file pusher

@@ -1,0 +1,24 @@
+
+Epoch : 1, train accuracy : 0.365513414144516, train loss : 1.5367857217788696
+Epoch : 1, val_accuracy : 0.38749998807907104, val_loss : 1.3668944835662842
+Epoch : 2, train accuracy : 0.4298650622367859, train loss : 1.2825013399124146
+Epoch : 2, val_accuracy : 0.4593750238418579, val_loss : 1.3219733238220215
+Epoch : 3, train accuracy : 0.4820413291454315, train loss : 1.2331578731536865
+Epoch : 3, val_accuracy : 0.48762017488479614, val_loss : 1.179699420928955
+Epoch : 4, train accuracy : 0.4805237054824829, train loss : 1.2217174768447876
+Epoch : 4, val_accuracy : 0.450120210647583, val_loss : 1.400328516960144
+Epoch : 5, train accuracy : 0.5169862508773804, train loss : 1.175325870513916
+Epoch : 5, val_accuracy : 0.5762019157409668, val_loss : 1.1451184749603271
+Epoch : 6, train accuracy : 0.5360609889030457, train loss : 1.1430208683013916
+Epoch : 6, val_accuracy : 0.6200721859931946, val_loss : 1.0828044414520264
+Epoch : 7, train accuracy : 0.5511617660522461, train loss : 1.1214971542358398
+Epoch : 7, val_accuracy : 0.6872596740722656, val_loss : 0.920960545539856
+Epoch : 8, train accuracy : 0.536509096622467, train loss : 1.1444343328475952
+Epoch : 8, val_accuracy : 0.7025240063667297, val_loss : 0.8866288065910339
+Epoch : 9, train accuracy : 0.5627620816230774, train loss : 1.100183367729187
+Epoch : 9, val_accuracy : 0.6899038553237915, val_loss : 0.9829709529876709
+Epoch : 10, train accuracy : 0.582403302192688, train loss : 1.0545729398727417
+Epoch : 10, val_accuracy : 0.6060096621513367, val_loss : 1.086168646812439
+Epoch : 11, train accuracy : 0.5757914185523987, train loss : 1.0497996807098389
+Epoch : 11, val_accuracy : 0.6650240421295166, val_loss : 0.9253840446472168
+Epoch : 12, train accuracy : 0.5832784175872803, train loss : 1.042900800704956
