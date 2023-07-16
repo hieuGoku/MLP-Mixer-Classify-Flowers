@@ -52,7 +52,7 @@
 ![error](figures/train_acc.png)
 ![error](figures/val_acc.png)
 
-**Weights**: Link]([https://arxiv.org/abs/2105.01601](https://drive.google.com/drive/folders/1aY5GFUG-yFjswjs1UCdKM7iKRuMlQv1L?usp=sharing))
+**Weights**: [Link](https://drive.google.com/drive/folders/1aY5GFUG-yFjswjs1UCdKM7iKRuMlQv1L?usp=sharing)
 
 ## Reference
 https://github.com/d-li14/mlp-mixer.pytorch
